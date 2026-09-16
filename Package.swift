@@ -12,14 +12,14 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
-        .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", exact: "9.4.0"),
+        .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", exact: "9.6.0"),
     ],
     targets: [
         .target(
             name: "AppodealLevelPlayAdapterWrapper",
             dependencies: [
                 .product(name: "AppodealSDK", package: "Appodeal-Swift-Package"),
-                .product(name: "UnityMediationSDK", package: "Unity-Mediation-iAds-Swift-Package"),
+                .product(name: "UnityMediationSDK", package: "LevelPlay-Swift-Package"),
                 .target(name: "AppodealLevelPlayAdapter"),
             ],
             path: "Sources",
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealLevelPlayAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealLevelPlayAdapter/9.4.0.0.0/AppodealLevelPlayAdapter.xcframework.zip",
-            checksum: "2b2f5e23e355940a19c9e3888da79e561171b184e9398bf8fbc9df2279dbcb72"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealLevelPlayAdapter/9.6.0.0.0/9a97b62e4c70/AppodealLevelPlayAdapter.xcframework.zip",
+            checksum: "9a97b62e4c708718fc6df1f7fd78657a9874a7c68f7c5dc41211c4fb3b073b7d"
         ),
 
     ]

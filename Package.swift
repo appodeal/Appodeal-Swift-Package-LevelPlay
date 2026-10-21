@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealLevelPlayAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealLevelPlayAdapter/9.6.0.0.0/9a97b62e4c70/AppodealLevelPlayAdapter.xcframework.zip",
-            checksum: "9a97b62e4c708718fc6df1f7fd78657a9874a7c68f7c5dc41211c4fb3b073b7d"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealLevelPlayAdapter/9.6.0.0.1/443dfdebcd79/AppodealLevelPlayAdapter.xcframework.zip",
+            checksum: "443dfdebcd797f0ce5a41011f84fa8d279206f33fd68d73f268672b39a03294f"
         ),
 
     ]
